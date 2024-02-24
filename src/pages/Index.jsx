@@ -9,22 +9,7 @@ const Index = () => {
   return (
     <Box p={5}>
       <Heading mb={4}>Personal Finance Manager</Heading>
-      <Stack spacing={4} direction="row" align="center" mb={4}>
-        <Input placeholder="Date" type="date" />
-        <Input placeholder="Amount" type="number" />
-        <Select placeholder="Type">
-          <option value="income">Income</option>
-          <option value="expense">Expense</option>
-        </Select>
-        <Select placeholder="Category">
-          <option value="groceries">Groceries</option>
-          <option value="bills">Bills</option>
-          {/* Add more categories as needed */}
-        </Select>
-        <Button leftIcon={<FaPlus />} colorScheme="teal">
-          Add Transaction
-        </Button>
-      </Stack>
+      <AddTransaction />
 
       <Flex mb={4} justify="space-between">
         <Button leftIcon={<FaFilter />} colorScheme="blue">
