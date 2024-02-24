@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Button, Flex, Heading, Input, Table, Tbody, Td, Th, Thead, Tr, Select, Stack, IconButton } from "@chakra-ui/react";
 import { FaPlus, FaEdit, FaTrash, FaFilter, FaFileExport, FaFileImport } from "react-icons/fa";
+import AddTransaction from "../components/AddTransaction";
 
 const Index = () => {
   // For the sake of example, no interactive functionality is included.
